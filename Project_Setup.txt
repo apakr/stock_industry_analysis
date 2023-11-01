@@ -1,0 +1,10 @@
+Research/Analyzation context:
+    Looking at online resources like Finviz's heatmap or stock screeners you get a good grasp of what the S&P 500 is made up of and by how much, however, you don't get a good sense of how stocks are distributed within the collection based on things like their market cap/book value, or other things that I think would be interesting to know, like how a stock's difference in market value/book value is distributed based on it's size or it's sector within the market, and other statistics of the sort. So, to get better at doing data analysis with pandas and to get a better understanding of the stock market, and to hopefully be able to show others interested in finance whatever insights I might find, I want to analyze the stocks in the S&P 500 and just do some exploratory analysis and see what sort of cool stuff I can find. Possibly I may be able to better contextualize the market for myself and get a more intuitive understanding of different industry conditions play into how valued a company is. 
+    
+Initial Questions:
+    1. By market cap, and by book value, how are the companies within the S&P 500 distributed (Is it distributed in a Gaussian curve?)
+    2. What percentage of the total capitalization of the index is made up by each sector, and the same for total book value
+    
+Throughout the analysis I expect more questions and takeaways to arise, but for the meantime this is all that I'm going into this code trying to find out.
+
+I'll be using a python 3.10 environemnt through anaconda, jupyter notebook, and using libraries such as yfinance for up-to-date market data, pandas for wrangling and analysis, and matplotlib for simple data visualizations. As I go along I expect there to be more tools that will be required, but for now this is all that I expect.
